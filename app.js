@@ -1,8 +1,30 @@
 "use strict";
 $(document).ready(function () {
-    
-    
-    
+
+   //$('#todo').click(function (e) {
+   //    e.preventDefault();
+   //    function myel(myclass = "") {
+   //        if (!$.trim($('#inputme').val()) == '') {
+   //            let vall = $('#inputtodo').val()
+   //                , newH2 = $('<h2> </h2>')
+   //                , newDiv = $('<div class="line"> </div>')
+   //                , bigDiv = $(`<div ${myclass} > </div>`)
+   //            $(newH2).append(vall)
+   //            $(newDiv).append(newH2)
+   //            $(bigDiv).append(newDiv)
+   //            return bigDiv
+   //        }
+   //        else {
+   //            return
+   //        }
+   //    }
+   //    $("#messagetodo").append(myel())
+   //    $("#messagetodo").append(myel('class="end"'))
+   //    $("#inputtodo").val("")
+   //    document.querySelector("#messagetodo").scrollTo(0, document.querySelector("#messagetodo").scrollHeight)
+   //    document.querySelector("#messagetodo").scrollTo(0, document.querySelector("#messagetodo").scrollHeight)
+   //});
+
     $('.btn').click(function (e) {
         e.preventDefault();
 
@@ -15,10 +37,3 @@ $(document).ready(function () {
     });
 });
 
-
-// $('#todo').click(function (e) {
-//   e.preventDefault();
-//   if (!$.trim($('#inputtodo').val()) == '') {
-//
-//   }
-//  });
