@@ -10,9 +10,12 @@ a:hover {
   color: black;
 }
 
+#todo {
+  padding: 80px;
+}
 #todo .box {
   padding: 30px;
-  margin-top: 80px;
+  margin: 0 0 60px;
   border-radius: 40px;
   background-color: #804c24;
   width: 380px;

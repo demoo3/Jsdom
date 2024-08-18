@@ -33,13 +33,13 @@ $(document).ready(function () {
                 $('.col-md-12').append(`<h2>${a}</h2>`);
                 
                 $('h2').css({
-                    'font-size':'20px',
-                    'border':'2px solid black',
-                    'width':'300px',
+                    'font-size':'25px',
+                    'border':'2px solid #8d8b8b',
+                    'width':'290px',
                     'border-radius':'25px',
                     'text-align':'center',
                     'margin': '20px 0 0',
-                    'padding': '20px 0 20px'
+                    'padding': '15px 0 15px'
                 });
             }
         }
