@@ -3,7 +3,7 @@
     .box
         padding: 30px
         margin: 0 0 60px
-        border-radius: 40px
+        border-radius: 25px
         background-color: #804c24
         width: 380px
         height: 300px
@@ -30,4 +30,23 @@
                 padding: 8px 0
                 margin-top: 6px
                 cursor: pointer
-        
+                &:hover
+                    background-color: #cbd0d8
+    h2
+        font-size: 25px
+        border: 2px solid #8d8b8b
+        width: 290px
+        border-radius: 25px
+        text-align: center
+        margin: 20px 0 0
+        padding: 15px 0 15px
+    @media screen and ( max-width: 300px )
+        .box
+            padding: 30px 40px
+            width: auto
+            height: auto
+            .minibox
+                input
+                    width: auto
+        h2
+            width: 200px

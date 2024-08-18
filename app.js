@@ -31,16 +31,6 @@ $(document).ready(function () {
         let a = (a) => {
             for (let i = 0; i < a; i++) {
                 $('.col-md-12').append(`<h2>${a}</h2>`);
-                
-                $('h2').css({
-                    'font-size':'25px',
-                    'border':'2px solid #8d8b8b',
-                    'width':'290px',
-                    'border-radius':'25px',
-                    'text-align':'center',
-                    'margin': '20px 0 0',
-                    'padding': '15px 0 15px'
-                });
             }
         }
         a($('input').val())
