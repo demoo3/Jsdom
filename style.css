@@ -44,7 +44,7 @@ a:hover {
   background-color: white;
   border-radius: 25px;
   padding: 8px 0;
-  margin-top: 6px;
+  margin: 6px 0 60px;
   cursor: pointer;
 }
 #todo .box .minibox .btn:hover {
@@ -67,6 +67,9 @@ a:hover {
   }
   #todo .box .minibox input {
     width: auto;
+  }
+  #todo .box .minibox .btn {
+    margin: auto;
   }
   #todo h2 {
     width: 200px;
