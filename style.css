@@ -44,12 +44,13 @@ a:hover {
   background-color: white;
   border-radius: 25px;
   padding: 8px 0;
+  margin-bottom: 55px;
   cursor: pointer;
 }
 #todo .box .minibox .btn:hover {
   background-color: #cbd0d8;
 }
-#todo h2 {
+#todo .box .minibox h2 {
   font-size: 15px;
   border: 2px solid #8d8b8b;
   width: 170px;
