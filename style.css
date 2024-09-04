@@ -16,57 +16,38 @@ a:hover {
 #todo .box {
   border-radius: 20px;
   background-color: #915b33;
-  width: 240px;
-  height: 215px;
+  width: 220px;
+  padding: 20px;
+  margin-bottom: 40px;
 }
-#todo .box .textbox h1 {
-  margin-top: 26px;
-  font-size: 38px;
+#todo .box h1 {
+  font-size: 30px;
   color: white;
   font-weight: 700;
 }
-#todo .box .minibox {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-#todo .box .minibox input {
+#todo .box input {
   width: 175px;
   margin: 20px 0 20px;
-  padding: 15px 0px 15px 17px;
-  font-size: 15px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 18px;
 }
-#todo .box .minibox .btn {
-  width: 68px;
-  font-size: 14px;
+#todo .box .btn {
+  font-size: 18px;
   background-color: white;
   border-radius: 25px;
-  padding: 8px 0;
-  margin-bottom: 55px;
+  padding: 6px 15px;
   cursor: pointer;
 }
-#todo .box .minibox .btn:hover {
+#todo .box .btn:hover {
   background-color: #cbd0d8;
 }
-#todo .box .minibox h2 {
-  font-size: 18px;
-  border: 2px solid #8d8b8b;
-  width: 170px;
-  border-radius: 20px;
+#todo .minibox {
   text-align: center;
-  margin-top: 13px;
-  padding: 10px 0 10px;
 }
-@media screen and (max-width: 300px) {
-  #todo .box .textbox h1 {
-    font-size: 40px;
-    margin-top: 20px;
-  }
-  #todo .box .minibox .btn, #todo .box .minibox input {
-    font-size: 16px;
-  }
-  #todo h2 {
-    font-size: 20px;
-  }
+#todo .minibox h2 {
+  border: 2px solid #8d8b8b;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 5px 10px;
 }/*# sourceMappingURL=style.css.map */
